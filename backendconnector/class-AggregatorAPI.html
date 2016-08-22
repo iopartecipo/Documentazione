@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>Class AggregatorAPI</title>
+
+	<link rel="stylesheet" href="resources/bootstrap.min.css?973e37a8502921d56bc02bb55321f45b072b6f71">
+	<link rel="stylesheet" href="resources/style.css?49f43d3208c5d7e33fa16d36107a345bf11cc00d">
+
+</head>
+
+<body>
+	<nav id="navigation" class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a href="index.html" class="navbar-brand">Overview</a>
+			</div>
+			<div class="collapse navbar-collapse">
+
+                <form id="search" class="navbar-form navbar-left" role="search">
+                    <input type="hidden" name="cx" value="">
+                    <input type="hidden" name="ie" value="UTF-8">
+                    <div class="form-group">
+                        <input type="text" name="q" class="search-query form-control" placeholder="Search">
+					</div>
+				</form>
+
+				<ul class="nav navbar-nav">
+					<li class="active">
+<span>Class</span>					</li>
+
+
+
+
+
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div id="left">
+	<div id="menu">
+
+		<div id="groups">
+		</div>
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li class="active"><a href="class-AggregatorAPI.html">AggregatorAPI</a></li>
+				<li><a href="class-BackendconnectorModule.html">BackendconnectorModule</a></li>
+				<li><a href="class-GeneratedumpCommand.html">GeneratedumpCommand</a></li>
+				<li><a href="class-MakeUpdateDirectoriesCommand.html">MakeUpdateDirectoriesCommand</a></li>
+				<li><a href="class-RestoredumpCommand.html">RestoredumpCommand</a></li>
+				<li><a href="class-UserIdentityAPI.html">UserIdentityAPI</a></li>
+				<li><a href="class-UserIdentityManager.html">UserIdentityManager</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+	<div id="rightInner">
+<div id="content" class="class">
+	<h1>Class AggregatorAPI</h1>
+
+
+	<div class="description">
+	<p>AggregatorAPI</p>
+
+<p>AggregatorAPI class is called for get, save, delete, update entries by AggregatorManager class.
+Copyright (c) 2014 <ahref Foundation -- All rights reserved.
+Author: Pradeep Kumar <pradeep@incaendo.com>
+This file is part of <Backendconnector>.
+This file can not be copied and/or distributed without the express permission of &lt;ahref Foundation.</p>
+	</div>
+
+
+
+
+
+
+
+
+
+	<div class="alert alert-info">
+		
+		
+		
+		
+
+			<b>Located at</b> <a href="source-class-AggregatorAPI.html#3-181" title="Go to source code">components/AggregatorAPI.php</a>
+		<br>
+	</div>
+
+
+
+		<div class="panel panel-default">
+			<div class="panel-heading"><h2>Methods summary</h2></div>
+			<table class="summary table table-bordered table-striped methods" id="methods">
+		<tr data-order="__construct" id="___construct">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#___construct">#</a>
+			<code><a href="source-class-AggregatorAPI.html#31-33" title="Go to source code">__construct</a>( )</code>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="curlGet" id="_curlGet">
+
+			<td class="attributes"><code>
+				 public 
+				(array)
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_curlGet">#</a>
+			<code><a href="source-class-AggregatorAPI.html#35-79" title="Go to source code">curlGet</a>( <span>(string) <var>$function</var></span>, <span>(string) <var>$params</var> = <span class="php-quote">''</span></span> )</code>
+
+			<div class="description short">
+				<p>curlGet</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>curlGet</p>
+
+<p>This function is used for curl request on server using Get method</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$function</var></dt>
+						<dd>$params</dd>
+						<dt><var>$params</var></dt>
+						<dd>$function</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						(array)<br>$out
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="curlPost" id="_curlPost">
+
+			<td class="attributes"><code>
+				 public 
+				(array)
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_curlPost">#</a>
+			<code><a href="source-class-AggregatorAPI.html#81-129" title="Go to source code">curlPost</a>( <span>(array) <var>$function</var></span>, <span>(string) <var>$params</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+			<div class="description short">
+				<p>curlPost to Aggregator</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>curlPost to Aggregator</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$function</var></dt>
+						<dd>$params</dd>
+						<dt><var>$params</var></dt>
+						<dd>$function</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						(array)<br>$out
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="curlPut" id="_curlPut">
+
+			<td class="attributes"><code>
+				 public 
+				(array)
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_curlPut">#</a>
+			<code><a href="source-class-AggregatorAPI.html#131-179" title="Go to source code">curlPut</a>( <span>(array) <var>$function</var></span>, <span>(string) <var>$params</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+			<div class="description short">
+				<p>curlPut to aggregator</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>curlPut to aggregator</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$function</var></dt>
+						<dd>$params</dd>
+						<dt><var>$params</var></dt>
+						<dd>$function</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						(array)<br>$out
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+			</table>
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+</div>
+	</div>
+
+	<div id="footer">
+		 API documentation generated by <a href="http://apigen.org">ApiGen</a>
+	</div>
+</div>
+<script src="resources/combined.js"></script>
+<script src="elementlist.js"></script>
+</body>
+</html>

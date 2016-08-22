@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>Class UserIdentityAPI</title>
+
+	<link rel="stylesheet" href="resources/bootstrap.min.css?973e37a8502921d56bc02bb55321f45b072b6f71">
+	<link rel="stylesheet" href="resources/style.css?49f43d3208c5d7e33fa16d36107a345bf11cc00d">
+
+</head>
+
+<body>
+	<nav id="navigation" class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a href="index.html" class="navbar-brand">Overview</a>
+			</div>
+			<div class="collapse navbar-collapse">
+
+                <form id="search" class="navbar-form navbar-left" role="search">
+                    <input type="hidden" name="cx" value="">
+                    <input type="hidden" name="ie" value="UTF-8">
+                    <div class="form-group">
+                        <input type="text" name="q" class="search-query form-control" placeholder="Search">
+					</div>
+				</form>
+
+				<ul class="nav navbar-nav">
+					<li class="active">
+<span>Class</span>					</li>
+
+
+
+
+
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div id="left">
+	<div id="menu">
+
+		<div id="groups">
+		</div>
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-AggregatorAPI.html">AggregatorAPI</a></li>
+				<li><a href="class-BackendconnectorModule.html">BackendconnectorModule</a></li>
+				<li><a href="class-GeneratedumpCommand.html">GeneratedumpCommand</a></li>
+				<li><a href="class-MakeUpdateDirectoriesCommand.html">MakeUpdateDirectoriesCommand</a></li>
+				<li><a href="class-RestoredumpCommand.html">RestoredumpCommand</a></li>
+				<li class="active"><a href="class-UserIdentityAPI.html">UserIdentityAPI</a></li>
+				<li><a href="class-UserIdentityManager.html">UserIdentityManager</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+	<div id="rightInner">
+<div id="content" class="class">
+	<h1>Class UserIdentityAPI</h1>
+
+
+	<div class="description">
+	<p>UserIdentityAPI</p>
+
+<p>UserIdentityAPI class is called for create, update, search userIdentityManager class.
+Copyright (c) 2014 <ahref Foundation -- All rights reserved.
+Author: Pradeep Kumar <pradeep@incaendo.com>
+This file is part of <Backendconnector>.
+This file can not be copied and/or distributed without the express permission of &lt;ahref Foundation.</p>
+	</div>
+
+
+
+
+
+
+
+
+
+	<div class="alert alert-info">
+		
+		
+		
+		
+
+			<b>Located at</b> <a href="source-class-UserIdentityAPI.html#4-310" title="Go to source code">components/UserIdentityAPI.php</a>
+		<br>
+	</div>
+
+
+
+		<div class="panel panel-default">
+			<div class="panel-heading"><h2>Methods summary</h2></div>
+			<table class="summary table table-bordered table-striped methods" id="methods">
+		<tr data-order="__construct" id="___construct">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#___construct">#</a>
+			<code><a href="source-class-UserIdentityAPI.html#32-34" title="Go to source code">__construct</a>( )</code>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getUserDetail" id="_getUserDetail">
+
+			<td class="attributes"><code>
+				 public 
+				(array)
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getUserDetail">#</a>
+			<code><a href="source-class-UserIdentityAPI.html#36-125" title="Go to source code">getUserDetail</a>( <span>(array) <var>$function</var></span>, <span>(string) <var>$params</var> = <span class="php-keyword1">array</span>()</span>, <span> <var>$email</var> = <span class="php-keyword1">false</span></span>, <span> <var>$id</var> = <span class="php-keyword1">false</span></span>, <span> <var>$nickname</var> = <span class="php-keyword1">false</span></span> )</code>
+
+			<div class="description short">
+				<p>getUserDetail</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>getUserDetail</p>
+
+<p>This function is used for curl request on server using Get method</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$function</var></dt>
+						<dd>$params</dd>
+						<dt><var>$params</var></dt>
+						<dd>$function</dd>
+						<dt><var>$email</var></dt>
+						<dd></dd>
+						<dt><var>$id</var></dt>
+						<dd></dd>
+						<dt><var>$nickname</var></dt>
+						<dd></dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						(array)<br>$userDetail
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get" id="_get">
+
+			<td class="attributes"><code>
+				 public 
+				array
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_get">#</a>
+			<code><a href="source-class-UserIdentityAPI.html#127-170" title="Go to source code">get</a>( <span>string <var>$function</var></span>, <span>array <var>$userParam</var></span>, <span>string <var>$projection</var> = <span class="php-quote">''</span></span> )</code>
+
+			<div class="description short">
+				<p>get
+function is used for send curl get request for getting user data</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>get
+function is used for send curl get request for getting user data</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$function</var></dt>
+						<dd><ul>
+<li>collection (entry)</li>
+</ul></dd>
+						<dt><var>$userParam</var></dt>
+						<dd><ul>
+<li>parameter for getting user detail</li>
+</ul></dd>
+						<dt><var>$projection</var></dt>
+						<dd><ul>
+<li>id or email (that you want to get)</li>
+</ul></dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						array<br>$userDetail
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="createUser" id="_createUser">
+
+			<td class="attributes"><code>
+				 public 
+				(array)
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_createUser">#</a>
+			<code><a href="source-class-UserIdentityAPI.html#172-216" title="Go to source code">createUser</a>( <span>(array) <var>$function</var></span>, <span>(string) <var>$params</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+			<div class="description short">
+				<p>function for create a new user, curl post to Identitity manager</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>function for create a new user, curl post to Identitity manager</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$function</var></dt>
+						<dd>$params</dd>
+						<dt><var>$params</var></dt>
+						<dd>$function</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						(array)<br>$return
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getUserInfo" id="_getUserInfo">
+
+			<td class="attributes"><code>
+				 public 
+				(array)
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getUserInfo">#</a>
+			<code><a href="source-class-UserIdentityAPI.html#218-262" title="Go to source code">getUserInfo</a>( <span>(string) <var>$function</var></span>, <span>(string) <var>$userId</var></span> )</code>
+
+			<div class="description short">
+				<p>function for retrive user info from itentity Manager</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>function for retrive user info from itentity Manager</p>
+
+<p>This function is used for curl request on server using Get method</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$function</var></dt>
+						<dd>$userId user id</dd>
+						<dt><var>$userId</var></dt>
+						<dd>$function</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						(array)<br>$userDetail
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="curlPut" id="_curlPut">
+
+			<td class="attributes"><code>
+				 public 
+				[type]
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_curlPut">#</a>
+			<code><a href="source-class-UserIdentityAPI.html#264-309" title="Go to source code">curlPut</a>( <span>[type] <var>$function</var></span>, <span>array <var>$params</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+			<div class="description short">
+				<p>curl put to Identitity manager</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>curl put to Identitity manager</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$function</var></dt>
+						<dd>[description]</dd>
+						<dt><var>$params</var></dt>
+						<dd>[description]</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						[type]<br>[description]
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+			</table>
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+</div>
+	</div>
+
+	<div id="footer">
+		 API documentation generated by <a href="http://apigen.org">ApiGen</a>
+	</div>
+</div>
+<script src="resources/combined.js"></script>
+<script src="elementlist.js"></script>
+</body>
+</html>
